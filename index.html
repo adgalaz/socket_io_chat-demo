@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Socket.IO chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <section>
+        <div id="chat">
+            <h1>Real time chat </h1>
+            <div id="chat-box">
+                <ul id="messages"></ul>
+            </div>
+        </div>
+        <form action="">
+            <input id="m" autocomplete="off" placeholder="Write your message here..." />
+            <button>Send</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js "></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js "></script>
+    <script src="assets/js/app.js "></script>
+</body>
+
+</html>
